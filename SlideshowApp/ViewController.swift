@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             num = 0
             self.stepBackButton.isEnabled = true
             self.stepForwardButton.isEnabled = true
-            self.imageButton.isEnabled = false
+            self.imageButton.isEnabled = true
             self.playPoseButton.setTitle("再生", for: .normal)
         } else {
             self.imageView.startAnimating()
